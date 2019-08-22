@@ -1,0 +1,37 @@
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# 忽略所有生成的.iml文件
+*.iml
+
+# 忽略idea文件夹
+.idea
+
+# 忽略target文件夹
+target
+
+# 忽略class文件夹
+classes
+
+#忽略photon_chain文件夹
+photon_chain
+
+#忽略log日志
+*.log.*
+*.log
+
+#忽略account文件
+account
+
+#忽略application.properties文件
+application.properties
