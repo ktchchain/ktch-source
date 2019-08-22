@@ -1,9 +1,9 @@
-###########Environmental dependence
+### Environmental dependence
 The project also MAVEN manages the JAR package, using springBoot as the container extension operation, JPA for the persistence layer, HQL for annotation, and Netty for network communication.
 JAVA JDK1.8
 MySQL 5.6
 
-###########Deployment steps
+### Deployment steps
 1. Adding System Environment Variables
     Your server should support JDK1.8 runtime environment
 	You can go to http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html to download jdk1.8
@@ -11,7 +11,7 @@ MySQL 5.6
 
 
 
-###########Directory structure description
+### Directory structure description
 ├── Readme.md                   				// help
 ├── photon-chain-extend                         // Extension layer (place contract virtual machine and extended functions)
 ├── photon-chain-interfaces                     // Interface layer (places an open API)
@@ -22,7 +22,7 @@ MySQL 5.6
 ├── photon-chain-network						// Network communication and encryption layer (node communication blockchain logic)
 ├── photon-chain-storage                        // Storage layer (persistent block information)
 
-###########Project Code Description
+### Project Code Description
 Dependency order  storage->network->extend->interfaces
 ![Image text](https://www-alphagdax-com.oss-cn-zhangjiakou.aliyuncs.com/2019/08/22/e87fbf59-75cf-48eb-b9af-c13f86eb1600.png)
 The core of the block chain is placed under the Core directory.
