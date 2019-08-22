@@ -23,7 +23,7 @@ MySQL 5.6
 	├── photon-chain-storage                        // Storage layer (persistent block information)
 
 ### Project Code Description
-Dependency order  storage->network->extend->interfaces
+###### Dependency order  storage->network->extend->interfaces
 ![Image text](https://www-alphagdax-com.oss-cn-zhangjiakou.aliyuncs.com/2019/08/22/e87fbf59-75cf-48eb-b9af-c13f86eb1600.png)
 The core of the block chain is placed under the Core directory.
 ![Image text](https://www-alphagdax-com.oss-cn-zhangjiakou.aliyuncs.com/2019/08/22/65f282d8-823f-45ce-a2ef-e93d370e887b.png)
