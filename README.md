@@ -36,18 +36,18 @@ MessageProcessor (important) message processing, pipeline block verification, ar
 According to communication, it is divided into request information (REQProcessor), response information (RESPProcessor)
 EVENT message event type resolution
 
-NEW_BLOCK = 0;--New block
-NEW_TRANSACTION = 1;--New water
-SYNC_BLOCK = 2;--sync block
-SYNC_TRANSACTION = 3;--Synchronized water
-NODE_ADDRESS = 4;--Broadcast node address
-SYNC_TOKEN = 5; - Synchronous token
-NEW_TOKEN = 6;--New Token
-PUSH_MAC = 7;--Push MAC address
-ADD_PARTICIPANT = 8;--Add mining certificate
-DEL_PARTICIPANT = 9;--Delete mining certificate
-SYNC_PARTICIPANT = 10;--Synchronous mining certificate
-SET_ZERO_PARTICIPANT=11;--Reset mining certificate
+	NEW_BLOCK = 0;--New block
+	NEW_TRANSACTION = 1;--New water
+	SYNC_BLOCK = 2;--sync block
+	SYNC_TRANSACTION = 3;--Synchronized water
+	NODE_ADDRESS = 4;--Broadcast node address
+	SYNC_TOKEN = 5; - Synchronous token
+	NEW_TOKEN = 6;--New Token
+	PUSH_MAC = 7;--Push MAC address
+	ADD_PARTICIPANT = 8;--Add mining certificate
+	DEL_PARTICIPANT = 9;--Delete mining certificate
+	SYNC_PARTICIPANT = 10;--Synchronous mining certificate
+	SET_ZERO_PARTICIPANT=11;--Reset mining certificate
 
 The network message transmission body uses GOOGLE's PROTO for message encapsulation, compression, encryption, and transmission.
 The Proto file is located in the resources directory of the networok module.
@@ -55,12 +55,12 @@ The Proto file is located in the resources directory of the networok module.
 
 ResetData resets the data, places the wrong data and illegal node data, and resets the reset and resets it.
 
-SyncBlock block synchronization logic
-SyncParticipant mining proof synchronization logic
-SyncTimer Synchronization Timer Actuator
-SyncToken Synchronize Token Information Logic
-SyncUnconfirmedTran synchronization unacknowledged pipeline logic
-Verification checker, flow check, block check logic
+	SyncBlock block synchronization logic
+	SyncParticipant mining proof synchronization logic
+	SyncTimer Synchronization Timer Actuator
+	SyncToken Synchronize Token Information Logic
+	SyncUnconfirmedTran synchronization unacknowledged pipeline logic
+	Verification checker, flow check, block check logic
 ![Image text](https://www-alphagdax-com.oss-cn-zhangjiakou.aliyuncs.com/2019/08/22/bfd1dae0-e4eb-45f9-a6bf-32ce30d02316.png)
 
 Extend extension layer
