@@ -12,15 +12,15 @@ MySQL 5.6
 
 
 ### Directory structure description
-├── Readme.md                   				// help
-├── photon-chain-extend                         // Extension layer (place contract virtual machine and extended functions)
-├── photon-chain-interfaces                     // Interface layer (places an open API)
-│   ├── java						// source
-│   ├── resources                	// config 
-│  		├──application-mainnet.properties	// mainnet config
-│		├──application-testnet.properties	// testnet config		
-├── photon-chain-network						// Network communication and encryption layer (node communication blockchain logic)
-├── photon-chain-storage                        // Storage layer (persistent block information)
+	├── Readme.md                   				// help
+	├── photon-chain-extend                         // Extension layer (place contract virtual machine and extended functions)
+	├── photon-chain-interfaces                     // Interface layer (places an open API)
+	│   ├── java						// source
+	│   ├── resources                	// config 
+	│  		├──application-mainnet.properties	// mainnet config
+	│		├──application-testnet.properties	// testnet config		
+	├── photon-chain-network						// Network communication and encryption layer (node communication blockchain logic)
+	├── photon-chain-storage                        // Storage layer (persistent block information)
 
 ### Project Code Description
 Dependency order  storage->network->extend->interfaces
